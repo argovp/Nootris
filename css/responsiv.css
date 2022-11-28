@@ -26,13 +26,13 @@
     header .container .header_rightSide .burger {
         display: block;        
     }
-    header .container .header_rightSide .burger .active .line:nth-child(2){
+    header .container .header_rightSide .burger.active .line:nth-child(2){
         opacity: 0;
     }
-    header .container .header_rightSide .burger .active .line:nth-child(1){
+    header .container .header_rightSide .burger.active .line:nth-child(1){
         transform: translateY(8px) rotate(45deg);        
     }
-    header .container .header_rightSide .burger .active .line:nth-child(3){
+    header .container .header_rightSide .burger.active .line:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
     header .container .nav-menu{

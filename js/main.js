@@ -15,7 +15,7 @@ let navMenu = document.querySelector('.nav-menu');
 let burger = document.querySelector('.burger');
 let headerOverlay = document.querySelector('.header-overlay');
 
-burger.addEventListener('click', ()=>{
+burger.addEventListener('click', ()=>{    
     burger.classList.toggle('active');
     navMenu.classList.toggle('active');
     headerOverlay.classList.toggle('hidden');
