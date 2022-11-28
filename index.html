@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nootris</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsiv.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    
+    <!-- Loader  -->
+    <div id="page-preloader" class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+    
+    
+    <!-- Header  -->
+    <header>
+        <div class="container">
+            <a href="./index.html" class="logo">
+                <img src="image/logo.png" alt="Logotype">
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav_item"><a href="" class="nav_link">FAQ</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Оплата и доставка</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Возврат</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Исследования</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Личный кабинет</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">88(800)600-09-90</a></li>
+                </ul>
+            </nav>
+            <div class="header_rightSide">
+                <a href="" class="buy">
+                    <img src="./image/Vector.png" alt="Buy">
+                </a>
+                <div class="burger">
+                    <span class = "line"></span>
+                    <span class = "line"></span>
+                    <span class = "line"></span>
+                  </div>
+            </div>
+        </div>
+        <div class="header-overlay hidden"></div>        
+    </header>     
+
+    <!-- Home section -->
+    <section class="home">
+        <div class="container">            
+            <div class="home_textContent">
+                <h1>Активируй <br> иммунитет!</h1>
+                <p>Всего пять секунд в день помогут укрепить иммунитет 
+                    и повысить защитные силы организма</p>
+                    <div class="home_bottomTextContent">
+                        <h2>NOOTRIS ПОМОГАЕТ</h2>
+                        <p>Вашему организму во время пандемии 
+                            и сезонных простуд</p>
+                    </div>
+            </div>
+            <div class="home_absImage animate__animated animate__fadeInRight">                
+                <img src="image/Mask Group.png" alt="">
+            </div>            
+        </div>
+    </section>
+
+    <!-- Product section -->
+    <section class="products">
+        <div class="container">
+            <h2>ПОЛУЧИ ЗАЩИТУ ИММУНИТЕТА <br>
+                <span>СО СКИДКОЙ -15% ПЕРВЫМ!</span> 
+            </h2>
+            <p>
+                <del>750 &#8381</del>
+                <span>650 &#8381</span>
+            </p>
+            <div class="products_imges">
+                <figure class="ginger animate__animated animate__fadeInLeft">
+                    <img src="image/ginger.png" alt="ginger">
+                    <figcaption>Содержит<br><span>имбирь</span></figcaption>
+                </figure>
+                <figure class="nootris">
+                    <img src="image/nootris.png" alt="nootris">
+                    <figcaption>+ Бесплатная доставка<br><span>Специальная цена</span></figcaption>
+                </figure>
+                <figure class="vorus animate__animated animate__fadeInRight">
+                    <img src="image/vorus.png" alt="vorus">
+                    <figcaption>Нейтрализует<br><span>вирусы</span></figcaption>
+                </figure>
+            </div>
+
+            <button id="btn">Оформить заказ!</button>           
+            
+            <div class="modal hidden">
+                <h1>Modal title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, totam?</p>
+                <span id="close">&times;</span>
+            </div>
+            <div class="overlay hidden"></div>
+        </div>
+        
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
